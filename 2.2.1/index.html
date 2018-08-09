@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .container {
+            width: 300px;
+            margin: 50px;
+            box-shadow: 0 0 0px 10px gray;
+        }
+        .box {
+            width: 200px;
+            height: 100px;
+        }
+        .bd {
+            border: 5px solid black;
+        }
+        .border-box {
+            box-sizing: border-box;
+        }
+    </style>
+    <div class="container">
+        <div class="box bd">box-sizing: content-box;<br> width: 200px;<br> height: 100px; <br> border: 5px solid black;</div>
+        <br>
+        <div class="box bd border-box">box-sizing: border-box <br> width: 200px;<br> height: 100px; <br> border: 5px solid black;</div>
+    </div>
+</body>
+</html>

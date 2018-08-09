@@ -1,0 +1,52 @@
+/* Simple Reset CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+.container {
+    width: 300px;
+    margin: 50px;
+    box-shadow: 0 0 0px 10px gray;
+}
+
+.container div {
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.w100p {
+    width: 100%;
+}
+
+.bd {
+    border: 5px dashed black;
+}
+
+.pd {
+    padding-left: 50px
+}
+
+.mg {
+    margin-left: 50px
+}
+
+/*
+ * Background Color
+ */
+.bg-red {
+    background-color: red;
+}
+
+.bg-cyan {
+    background-color: cyan;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-purple {
+    background-color: purple;
+}

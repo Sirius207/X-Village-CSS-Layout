@@ -1,0 +1,43 @@
+/* Simple Reset CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+.container {
+    width: 300px;
+    margin: 50px;
+    box-shadow: 0 0 0px 10px gray;
+}
+
+.bd {
+    border: 5px dashed black;
+}
+
+.bd-green {
+    border: 5px dashed green;
+}
+
+.h100p {
+    height: 50%;
+}
+
+.h150 {
+    height: 150px;
+}
+
+.h50 {
+    height: 50px;
+}
+
+/*
+ * Background Color
+ */
+.bg-azure {
+    background-color: azure;
+}
+
+.bg-cyan {
+    background-color: cyan;
+}
