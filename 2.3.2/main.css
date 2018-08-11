@@ -1,0 +1,19 @@
+.w300 {
+    width: 300px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.bd5 {
+    border: 5px solid #B48291;
+}
+
+.bg-cyan {
+    background-color: #CEE0DC;
+}
+
+.tx-blue {
+    color: blue;
+}
