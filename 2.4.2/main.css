@@ -1,0 +1,59 @@
+.p-rela {
+    position: relative;
+}
+
+.p-abs {
+    position: absolute;
+}
+
+body {
+    border: 1px solid black;
+}
+
+.sol-1 {
+    left: 50px;
+    top: 50px;
+}
+
+.sol-2 {
+    right: 40px;
+    bottom: 40px;
+}
+
+.square-40 {
+    width: 40px;
+    height: 40px;
+}
+
+.abs-center {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.tx-white {
+    color: #fff;
+}
+
+.square-100 {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-red {
+    background-color: #EF6F6C;
+}
+
+.bg-purple {
+    background-color: #465775;
+}
+
+.bg-green {
+    background-color: #56e39f;
+}
+
+.bg-cyan {
+    background-color: #59c9a5;
+}

@@ -1,7 +1,9 @@
 
 .normal-div {
-    right: 50px;
-    bottom: 20px;
+    left: 50px; /* useless! */
+    right: 50px; /* useless! */
+    bottom: 20px; /* useless! */
+    top: 20px; /* useless! */
     height: 300px;
     width: 200px;
 }
