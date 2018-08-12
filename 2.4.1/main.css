@@ -1,0 +1,58 @@
+
+.normal-div {
+    right: 50px;
+    bottom: 20px;
+    height: 300px;
+    width: 200px;
+}
+
+.normal-div div {
+    position: relative;
+}
+
+.sample-space {
+    top: 50px;
+    left: 50px;
+}
+
+.sub-sample-1 {
+    top: 60px;
+    left: 50px;
+}
+
+.sub-sample-2 {
+    top: 50px;
+    left: 60px;
+}
+
+.tx-white {
+    color: #fff;
+}
+
+.w-50 {
+    width: 50px;
+}
+
+.md-10 {
+    margin: 10px;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.bg-green {
+    background-color: #bfedc1;
+}
+
+.bg-purple {
+    background-color: #985f99;
+}
+
+.bg-red {
+    background-color: #403d39;
+}
+
+.bg-brown {
+    background-color: #ccc5b9;
+}
