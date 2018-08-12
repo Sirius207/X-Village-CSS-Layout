@@ -1,0 +1,31 @@
+a {
+    text-decoration: none; /* remove the link underline*/
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.side-menu li {
+    list-style: none; /* remove the list point*/
+}
+
+li {
+    height: 30px;
+    margin: 5px 0;
+    padding: 0 20px;
+    line-height: 30px;  /* text vertical center */
+    background-color: #89a348;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 gray;
+}
+
+.bg-gray {
+    background-color: #ebebeb;
+}
+
+.tx-center {
+    text-align: center;
+}
