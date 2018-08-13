@@ -8,7 +8,7 @@
 .container {
     width: 300px;
     margin: 50px;
-    box-shadow: 0 0 0px 10px gray;
+    box-shadow: 0 0 0px 10px #938ba1;
 }
 
 .container div {
@@ -21,7 +21,7 @@
 }
 
 .bd {
-    border: 5px dashed black;
+    border: 5px dashed purple;
 }
 
 .pd {
@@ -36,17 +36,17 @@
  * Background Color
  */
 .bg-red {
-    background-color: red;
+    background-color: #d7fdec;
 }
 
 .bg-cyan {
-    background-color: cyan;
+    background-color: #a9fbd7;
 }
 
 .bg-green {
-    background-color: green;
+    background-color: #B2E4DB;
 }
 
 .bg-purple {
-    background-color: purple;
+    background-color: #b0c6ce;
 }
