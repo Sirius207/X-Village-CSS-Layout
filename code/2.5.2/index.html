@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,37 @@
     <title>Document</title>
     <style>
         .grid-container {
-            
+            display: grid;
+            grid-template-columns: 100px 0.3fr 0.7fr;
+            grid-template-rows: 25% 100px auto;
+        }
+        .bg-red {
+            background-color: #d7fdec;
+        }
+
+        .bg-cyan {
+            background-color: #a9fbd7;
+        }
+
+        .bg-green {
+            background-color: #B2E4DB;
+        }
+
+        .bg-purple {
+            background-color: #b0c6ce;
         }
     </style>
 </head>
+
 <body>
     <div class="grid-container">
-
+        <div class="bg-red">one</div>
+        <div class="bg-cyan">two</div>
+        <div class="bg-green">the</div>
+        <div class="bg-purple">four</div>
+        <div class="bg-red">five</div>
+        <div class="bg-green">six</div>
     </div>
 </body>
+
 </html>
