@@ -98,6 +98,7 @@ header {
 }
 
 .card-item {
+    width: 300px;
     display: inline-block;
     margin: 1rem;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
@@ -123,4 +124,19 @@ header {
 .card-intro {
     color: rgba(0,0,0,0.5);
     font-style: italic;
+}
+
+
+/*
+ * Footer
+ */
+
+footer {
+    height: 50px;
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+}
+
+.copyright {
+    line-height: 50px;
 }
