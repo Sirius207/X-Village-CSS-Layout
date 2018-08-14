@@ -17,14 +17,13 @@
                     <img src="assets/media/logo.png" alt="logo" class="logo">
                 </a>
             </div>
-            <ul class="flex-between" id ="topMenu">
+            <ul class="flex-between">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <button class="ham" onclick="toggleMenu()">☰</button>
         </div>
     </nav>
     <header id="home">
@@ -99,16 +98,6 @@
             <p class="copyright">© 2018 NCKU X-Village.</p>
         </div>
     </footer>
-    <script>
-        function toggleMenu() {
-            var x = document.getElementById("topMenu");
-            if (x.className === "flex-between") {
-                x.className += " menu--active";
-            } else {
-                x.className = "flex-between";
-            }
-        }
-    </script>
 </body>
 
 </html>

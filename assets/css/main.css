@@ -119,6 +119,7 @@ header {
 .card-title {
     margin-bottom: 1rem;
     color: rgba(0,0,0,0.9);
+    font-weight: 300;
 }
 
 .card-intro {
@@ -139,4 +140,38 @@ footer {
 
 .copyright {
     line-height: 50px;
+}
+
+/*
+ * Hamburger menu
+ */
+
+ .ham {
+    display: none;
+ }
+
+@media only screen and (max-width: 520px) {
+    .flex-between {
+        flex-direction: column;
+    }
+    .container .flex-between {
+        display: none;
+    }
+
+    nav li {
+        border-top: 1px solid gray;
+    }
+
+    .ham {
+        display: block;
+        position: absolute;
+        right: 2rem;
+        font-size: 1rem;
+    }
+
+    .container .flex-between.menu--active {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
